@@ -8,7 +8,11 @@ Scrapy=Scrapy()
 
 
 def case1():
-    keyword = input("tell me the keyword, you want to use\n")
+    msg="tell me the keyword, you want to use\n"
+    keyword = input(msg)
+    while len(keyword)<1:
+        keyword = input(msg)
+    
     Scrapy.startBykeyword(keyword)
 
 def case2():

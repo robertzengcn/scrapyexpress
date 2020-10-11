@@ -1,0 +1,530 @@
+1602383878728	geckodriver	INFO	Listening on 127.0.0.1:60049
+1602383881751	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ROBERT~1\\AppData\\Local\\Temp\\rust_mozprofileVAP1o5"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602383886647	Marionette	INFO	Listening on port 60057
+1602383887126	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 697))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 351))
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=11, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 7: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 9: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 13: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 16: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 19: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 7: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 9: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 13: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 16: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 19: unreachable code after return statement
+JavaScript warning: https://assets.alicdn.com/g/ae-fe/global/0.0.3/index.js, line 22: Script terminated by timeout at:
+Bn@https://assets.alicdn.com/g/ae-fe/global/0.0.3/index.js:22:30121
+lt@https://assets.alicdn.com/g/ae-fe/global/0.0.3/index.js:22:16487
+it@https://assets.alicdn.com/g/ae-fe/global/0.0.3/index.js:22:16204
+ut@https://assets.alicdn.com/g/ae-fe/global/0.0.3/index.js:22:16562
+pt@https://assets.alicdn.com/g/ae-fe/global/0.0.3/index.js:22:17769
+ie@https://assets.alicdn.com/g/ae-fe/global/0.0.3/index.js:22:114478
+ae@https://assets.alicdn.com/g/ae-fe/global/0.0.3/index.js:22:4128
+Zt@https://assets.alicdn.com/g/ae-fe/global/0.0.3/index.js:22:23735
+Xt@https://assets.alicdn.com/g/ae-fe/global/0.0.3/index.js:22:22951
+t.unstable_runWithPriority@https://assets.alicdn.com/g/ae-fe/global/0.0.3/index.js:30:3844
+Wi@https://assets.alicdn.com/g/ae-fe/global/0.0.3/index.js:22:45070
+ne@https://assets.alicdn.com/g/ae-fe/global/0.0.3/index.js:22:114253
+Yt@https://assets.alicdn.com/g/ae-fe/global/0.0.3/index.js:22:22764
+
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 7: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 9: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 13: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 16: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 19: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 7: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 9: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 13: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 16: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 19: unreachable code after return statement
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 7: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 9: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 13: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 16: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 19: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 7: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 9: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 13: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 16: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 19: unreachable code after return statement
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 2: Script terminated by timeout at:
+v@https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js:2:9541
+
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 7: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 9: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 13: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 16: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 19: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 7: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 9: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 13: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 16: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 19: unreachable code after return statement
+1602387727351	Marionette	INFO	Stopped listening on port 60057
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ROBERT~1\\AppData\\Local\\Temp\\rust_mozprofiletFqh5L"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602387723751	Marionette	INFO	Listening on port 56883
+1602387723899	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=11, line 1: WebGL context was lost.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 7: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 9: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 13: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 16: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 19: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 7: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 9: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 13: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 16: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 19: unreachable code after return statement
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 7: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 9: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 13: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 16: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 19: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 7: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 9: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 13: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 16: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 19: unreachable code after return statement
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 7: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 9: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 13: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 16: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 19: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 7: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 9: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 13: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 16: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 19: unreachable code after return statement
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 7: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 9: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 13: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 16: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 19: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 7: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 9: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 13: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 16: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 19: unreachable code after return statement
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.85.0/um.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.85.0/um.js, line 1: WebGL context was lost.
+1602387968151	Marionette	INFO	Stopped listening on port 56883
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1602387974827	geckodriver	INFO	Listening on 127.0.0.1:57336
+1602387977842	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ROBERT~1\\AppData\\Local\\Temp\\rust_mozprofile8W5eqJ"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602387983411	Marionette	INFO	Listening on port 57344
+1602387983770	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=11, line 1: WebGL context was lost.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.85.0/um.js, line 1: WebGL context was lost.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1602388031040	Marionette	INFO	Stopped listening on port 57344
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1602388038869	geckodriver	INFO	Listening on 127.0.0.1:57508
+1602388041884	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ROBERT~1\\AppData\\Local\\Temp\\rust_mozprofilepOref4"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602388045809	Marionette	INFO	Listening on port 57517
+1602388046012	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=11, line 1: WebGL context was lost.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.85.0/um.js, line 1: WebGL context was lost.
+JavaScript warning: https://aeis.alicdn.com/AWSC/uab/1.137.1/collina.js, line 7: Script terminated by timeout at:
+e/</<@https://aeis.alicdn.com/AWSC/uab/1.137.1/collina.js:7:20259
+e/<@https://aeis.alicdn.com/AWSC/uab/1.137.1/collina.js:7:20260
+e@https://aeis.alicdn.com/AWSC/uab/1.137.1/collina.js:8:23421
+
+1602388072020	Marionette	INFO	Stopped listening on port 57517
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1602388162378	geckodriver	INFO	Listening on 127.0.0.1:57830
+1602388165396	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ROBERT~1\\AppData\\Local\\Temp\\rust_mozprofilefl86yY"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602388170454	Marionette	INFO	Listening on port 57846
+1602388170923	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=11, line 1: WebGL context was lost.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://assets.alicdn.com/g/ae-fe/home-ui/0.0.41/??page/home.js,source/pages/global.js, line 1: ChunkLoadError: Loading chunk 3 failed.
+(error: https://assets.alicdn.com/g/ae-fe/home-ui/0.0.41/vendors~index-TbYbF.js)
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.85.0/um.js, line 1: WebGL context was lost.
+JavaScript error: chrome://marionette/content/proxy.js, line 287: NS_ERROR_NOT_INITIALIZED
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1602388208586	Marionette	INFO	Stopped listening on port 57846
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1602403073127	geckodriver	INFO	Listening on 127.0.0.1:52827
+1602403076186	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ROBERT~1\\AppData\\Local\\Temp\\rust_mozprofileGyo2f6"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602403080544	Marionette	INFO	Listening on port 52835
+1602403081026	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 697))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 351))
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=11, line 1: WebGL context was lost.
+JavaScript error: https://gpsfront.aliexpress.com/getRecommendingResults.do?callback=jQuery18302012759358387759_1602403104727&widget_id=8596642&limit=22&_=1602403115009, line 1: TypeError: jQuery18302012759358387759_1602403104727 is not a function
+1602404834695	Marionette	INFO	Stopped listening on port 52835
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1602405749604	geckodriver	INFO	Listening on 127.0.0.1:54126
+1602405769040	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ROBERT~1\\AppData\\Local\\Temp\\rust_mozprofilevoYT73"
+console.log: WebExtensions: activityStreamHack.initRemotePages init will_retry
+console.log: WebExtensions: activityStreamHack.initRemotePages retry pl_missing
+1602405782034	Marionette	INFO	Listening on port 54140
+1602405782193	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602405782896	Marionette	ERROR	[98] No reply from Marionette:Register
+1602405782911	Marionette	ERROR	[99] No reply from Marionette:Register
+JavaScript warning: moz-extension://8941648b-448e-4129-9e37-866bdba53993/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: undefined, line 0: Error: frame.state is undefined
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 697))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 351))
+1602405793987	Marionette	ERROR	[100] No reply from Marionette:Register
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=11, line 1: WebGL context was lost.
+1602405797531	Marionette	ERROR	[101] No reply from Marionette:Register
+1602405797555	Marionette	ERROR	[102] No reply from Marionette:Register
+1602405798491	Marionette	ERROR	[103] No reply from Marionette:Register
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit support@lastpass.com.274877907000
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 554: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 554: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+1602405807685	Sync.ErrorHandler	ERROR	Some engines did not sync correctly.
+[Parent 26656, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1602405808101	Marionette	INFO	Stopped listening on port 54140
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1602406818842	geckodriver	INFO	Listening on 127.0.0.1:54986
+1602406846452	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ROBERT~1\\AppData\\Local\\Temp\\rust_mozprofilefi1fJY"
+console.log: WebExtensions: activityStreamHack.initRemotePages init will_retry
+console.log: WebExtensions: activityStreamHack.initRemotePages retry pl_missing
+1602406857765	Marionette	INFO	Listening on port 55002
+1602406858176	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://8941648b-448e-4129-9e37-866bdba53993/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 3ms)
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=11, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript error: https://gpsfront.aliexpress.com/getRecommendingResults.do?callback=jQuery183032785575042966986_1602406868378&widget_id=8596642&limit=22&_=1602406874027, line 1: TypeError: jQuery183032785575042966986_1602406868378 is not a function
+Extension error: Error: Type error for parameter tabId (Integer -1 is too small (must be at least 0)) for tabs.get. moz-extension://8941648b-448e-4129-9e37-866bdba53993/ext/background.js 143
+[[Exception stack
+updatePageFrameStructure@moz-extension://8941648b-448e-4129-9e37-866bdba53993/ext/background.js:143:20
+@moz-extension://8941648b-448e-4129-9e37-866bdba53993/ext/background.js:246:29
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: Type error for parameter tabId (Integer -1 is too small (must be at least 0)) for tabs.get. moz-extension://8941648b-448e-4129-9e37-866bdba53993/ext/background.js 143
+[[Exception stack
+updatePageFrameStructure@moz-extension://8941648b-448e-4129-9e37-866bdba53993/ext/background.js:143:20
+@moz-extension://8941648b-448e-4129-9e37-866bdba53993/ext/background.js:246:29
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: Type error for parameter tabId (Integer -1 is too small (must be at least 0)) for tabs.get. moz-extension://8941648b-448e-4129-9e37-866bdba53993/ext/background.js 143
+[[Exception stack
+updatePageFrameStructure@moz-extension://8941648b-448e-4129-9e37-866bdba53993/ext/background.js:143:20
+@moz-extension://8941648b-448e-4129-9e37-866bdba53993/ext/background.js:246:29
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+JavaScript warning: https://home.firefoxchina.cn/2019/js/mozMainScript-min.js?v=20200722, line 1: unreachable code after return statement
+JavaScript warning: https://home.firefoxchina.cn/2019/js/mozMainScript-min.js?v=20200722, line 1: unreachable code after return statement
+Extension error: Error: Type error for parameter tabId (Integer -1 is too small (must be at least 0)) for tabs.get. moz-extension://8941648b-448e-4129-9e37-866bdba53993/ext/background.js 143
+[[Exception stack
+updatePageFrameStructure@moz-extension://8941648b-448e-4129-9e37-866bdba53993/ext/background.js:143:20
+@moz-extension://8941648b-448e-4129-9e37-866bdba53993/ext/background.js:246:29
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+JavaScript error: https://outlook.live.com/owa/, line 10: ReferenceError: awa is not defined
+JavaScript error: https://outlook.live.com/owa/prefetch.aspx, line 18: NS_ERROR_NOT_INITIALIZED: 
+Extension error: Error: Type error for parameter tabId (Integer -1 is too small (must be at least 0)) for tabs.get. moz-extension://8941648b-448e-4129-9e37-866bdba53993/ext/background.js 143
+[[Exception stack
+updatePageFrameStructure@moz-extension://8941648b-448e-4129-9e37-866bdba53993/ext/background.js:143:20
+@moz-extension://8941648b-448e-4129-9e37-866bdba53993/ext/background.js:246:29
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: TypeError: g_CS[e] is null moz-extension://ceb0e7c1-ea7d-474c-a016-c91d00958f7c/background.js 1
+[[Exception stack
+receiveCS@moz-extension://ceb0e7c1-ea7d-474c-a016-c91d00958f7c/background.js:1:72045
+onconnect_listener</<@moz-extension://ceb0e7c1-ea7d-474c-a016-c91d00958f7c/background.js:1:64371
+e@moz-extension://ceb0e7c1-ea7d-474c-a016-c91d00958f7c/lpfulllib.js:1:5220
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+addListener/asyncWithoutClone/<@resource://gre/modules/ExtensionCommon.jsm:2427:39
+]]
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=11, line 1: WebGL context was lost.
+JavaScript error: https://gpsfront.aliexpress.com/getRecommendingResults.do?callback=jQuery183034966386106000624_1602407251135&widget_id=8596642&limit=22&_=1602407258857, line 1: TypeError: jQuery183034966386106000624_1602407251135 is not a function
+[GFX1-]: [D3D11] 2 CreateTexture2D failure Size: Size(750,300)texture11: false Code: 0x8007000e
+[GFX1-]: [D3D11] 2 CreateTexture2D failure Size: Size(750,300)texture11: false Code: 0x8007000e
+BuffersWithDamageEXT'.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=11, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1602407204711	Marionette	INFO	Stopped listening on port 55319
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

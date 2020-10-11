@@ -12,8 +12,12 @@ def case1():
     keyword = input(msg)
     while len(keyword)<1:
         keyword = input(msg)
-    
-    Scrapy.startBykeyword(keyword)
+    profilemsg="tell me where you save firefox cookies(option)\n"
+    profile= input(profilemsg)
+    if(len(profile)<1):
+        profile=None
+    print("already start, wait for a moment...")    
+    Scrapy.startBykeyword(keyword,profile)
 
 def case2():
     print("2")    

@@ -8,12 +8,24 @@ from selenium.webdriver.common.keys import Keys
 class Scrapy(object):
 
     def __init__(self):
-        self.browser = webdriver.Firefox()
-    def startBykeyword(self,keyword):
+        
+        self.browser = None
+        self.pagenum=1
+        
+    def startBykeyword(self,keyword,profiles=None):
+        #profiles=r"C:\Users\robert zeng\AppData\Roaming\Mozilla\Firefox\Profiles\qcsnl19h.default-release"
+        if profiles !=None:           
+            fp = webdriver.FirefoxProfile(profiles)
+            self.browser = webdriver.Firefox(fp)
+        else:
+            self.browser = webdriver.Firefox()
         self.browser.get('https://www.aliexpress.com')
         keyinput = self.browser.find_element_by_xpath('//*[@id="search-key"]')
         keyinput.send_keys(keyword)
-        
+
+        cookies = self.browser.get_cookies()
+        print(cookies)
+
         #serachbtn = self.browser.find_element_by_class_name('search-button')
         # self.closeadhome()#关闭首页可能出现的广告
         # serachbtn.click()
@@ -24,15 +36,25 @@ class Scrapy(object):
         self.scrolldown()
         self.browser.implicitly_wait(2)#等待页面加载
         pagenum=self.getpagenum() #获取页面数量
+        if pagenum>self.pagenum:
+            self.pagenum=pagenum
         
-        self.getprolistinpage()
+        # for i in range(1, self.pagenum):
+        #     self.scrolldown()
+        #     currbtn=self.browser.find_element_by_class_name('next-current')
+        #     self.checkadexist()
+            
+        #     self.browser.implicitly_wait(2)#等待页面加载
+        #     linklist=self.getprolistinpage()
+        #     print(linklist)
+        # self.getprolistinpage()
 
     '''
     检查页面是否有广告存在，存在就关闭
     '''    
     def checkadexist(self): 
         try:
-            uinextad = WebDriverWait(self.browser, 10).until(
+            uinextad = WebDriverWait(self.browser, 5).until(
             EC.element_to_be_clickable((By.CLASS_NAME, 'ui-newuser-layer-dialog'))
             )
             self.browser.find_element_by_class_name('ui-newuser-layer-dialog')
@@ -62,18 +84,22 @@ class Scrapy(object):
             EC.visibility_of_element_located((By.CLASS_NAME, 'total-page'))
             )
         inner_text= self.browser.execute_script("return arguments[0].innerText;", totalpage)
-        number=int(filter(inner_text.isdigit, inner_text))
-        print(number)
-        return number
+        # number=int(filter(inner_text.isdigit, inner_text))
+        numarr=[int(s) for s in inner_text.split() if s.isdigit()]  
+        return numarr[0]
     def getprolistinpage(self):
         #取产品列表外的div
         proclass=self.browser.find_element_by_class_name('product-list')  
         linkelems=proclass.find_elements_by_xpath("//a[@href]")
+        substring = "/item/"
+        res=[]
         for elem in linkelems:
-            print(elem.get_attribute("href"))
-    '''
-    关闭首页的广告
-    '''        
+            fulllink=elem.get_attribute("href")
+            if fulllink.find(substring) != -1:
+               res.append(fulllink)
+        return res        
+
+    #关闭首页的广告     
     def closeadhome(self):
         try:
             uinextad = WebDriverWait(self.browser, 5).until(

@@ -481,29 +481,23 @@ JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=11, line
 JavaScript error: https://gpsfront.aliexpress.com/getRecommendingResults.do?callback=jQuery183034966386106000624_1602407251135&widget_id=8596642&limit=22&_=1602407258857, line 1: TypeError: jQuery183034966386106000624_1602407251135 is not a function
 [GFX1-]: [D3D11] 2 CreateTexture2D failure Size: Size(750,300)texture11: false Code: 0x8007000e
 [GFX1-]: [D3D11] 2 CreateTexture2D failure Size: Size(750,300)texture11: false Code: 0x8007000e
-BuffersWithDamageEXT'.
-JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=11, line 1: WebGL context was lost.
-JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
-JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
-JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
-JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
-JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
-JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
-IPDL protocol error: Handler returned error code!
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit support@lastpass.com.274877907207
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 554: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 554: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 554: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 554: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 554: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 554: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 554: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 554: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 554: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+1602412500197	Marionette	INFO	Stopped listening on port 55002
 
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-IPDL protocol error: Handler returned error code!
 
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
 
 IPDL protocol error: Handler returned error code!
 

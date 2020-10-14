@@ -522,3 +522,1102 @@ IPDL protocol error: Handler returned error code!
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1602467796759	geckodriver	INFO	Listening on 127.0.0.1:53254
+1602467799777	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zengj\\AppData\\Local\\Temp\\rust_mozprofilekt9rWM"
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+1602467802889	Marionette	INFO	Listening on port 53267
+1602467802955	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=12, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 7: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 9: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 13: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 16: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 19: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 7: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 9: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 13: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 16: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 19: unreachable code after return statement
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1602468934909	Marionette	INFO	Stopped listening on port 53267
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1602469002011	geckodriver	INFO	Listening on 127.0.0.1:54838
+1602469005069	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zengj\\AppData\\Local\\Temp\\rust_mozprofilend7qvb"
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602469007266	Marionette	INFO	Listening on port 54850
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+1602469007684	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=12, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 7: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 9: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 13: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 16: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 19: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 7: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 9: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 13: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 16: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 19: unreachable code after return statement
+1602469250134	Marionette	INFO	Stopped listening on port 54850
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1602469257746	geckodriver	INFO	Listening on 127.0.0.1:55328
+1602469260784	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zengj\\AppData\\Local\\Temp\\rust_mozprofileeatp1c"
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602469262849	Marionette	INFO	Listening on port 55338
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+1602469262902	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=12, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 7: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 9: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 13: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 16: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 19: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 7: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 9: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 13: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 16: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 19: unreachable code after return statement
+1602469357934	Marionette	INFO	Stopped listening on port 55338
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1602470307100	geckodriver	INFO	Listening on 127.0.0.1:56685
+1602470310118	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zengj\\AppData\\Local\\Temp\\rust_mozprofileU9GuuX"
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602470312443	Marionette	INFO	Listening on port 56697
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+1602470312730	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=12, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 7: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 9: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 13: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 16: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 19: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 7: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 9: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 13: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 16: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 19: unreachable code after return statement
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1602473637224	Marionette	INFO	Stopped listening on port 56697
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1602550392413	geckodriver	INFO	Listening on 127.0.0.1:56130
+1602550395484	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zengj\\AppData\\Local\\Temp\\rust_mozprofileLVnNs4"
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+1602550399517	Marionette	INFO	Listening on port 56142
+1602550399683	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=13, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 7: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 9: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 13: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 16: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 19: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 7: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 9: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 13: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 16: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 19: unreachable code after return statement
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A000D,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+1602550462362	Marionette	INFO	Stopped listening on port 56142
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1602550481246	geckodriver	INFO	Listening on 127.0.0.1:56341
+1602550484291	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zengj\\AppData\\Local\\Temp\\rust_mozprofilelqTko0"
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602550486356	Marionette	INFO	Listening on port 56356
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+1602550486419	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=13, line 1: WebGL context was lost.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 7: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 9: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 13: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 16: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 19: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 7: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 9: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 13: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 16: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 19: unreachable code after return statement
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+console.error: "Task cancelled"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=13, line 1: WebGL context was lost.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 7: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 9: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 13: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 16: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 19: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 7: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 9: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 13: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 16: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 19: unreachable code after return statement
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 7: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 9: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 13: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 16: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 19: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 7: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 9: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 13: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 16: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 19: unreachable code after return statement
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1602568465560	Marionette	INFO	Stopped listening on port 57402
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1602569954888	geckodriver	INFO	Listening on 127.0.0.1:61745
+1602569957941	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zengj\\AppData\\Local\\Temp\\rust_mozprofilehlZV4Q"
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+1602569961280	Marionette	INFO	Listening on port 61754
+1602569961598	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=13, line 1: WebGL context was lost.
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 7: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 9: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 13: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 16: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 19: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 6: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 7: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 9: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 13: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 16: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-search-ui/standalone/index.659e3f11.js, line 19: unreachable code after return statement
+1602570824226	Marionette	INFO	Stopped listening on port 61754
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1602645944162	geckodriver	INFO	Listening on 127.0.0.1:56507
+1602645947184	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zengj\\AppData\\Local\\Temp\\rust_mozprofileC2t4rY"
+1602646513458	geckodriver	INFO	Listening on 127.0.0.1:57237
+1602646516479	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zengj\\AppData\\Local\\Temp\\rust_mozprofileh9MjGc"
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602646518766	Marionette	INFO	Listening on port 57248
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+1602646519136	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=14, line 1: WebGL context was lost.
+JavaScript error: https://campaign.aliexpress.com/wow/gcp/9ab458bc1f2b4b6885d4ece4e757d6a7_1598857100700?__poplayer_position_sign=pc_homepage&__prefix=&__poplayer_preserve_uuid=24317&wh_weex=true&wh_trace=true, line 362: ReferenceError: require is not defined
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6A0029,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 26692, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1602647223810	Marionette	INFO	Stopped listening on port 57248
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602647102521	Marionette	INFO	Listening on port 58036
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+1602647102678	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=14, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+1602647222734	Marionette	INFO	Stopped listening on port 58036
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1602647236306	geckodriver	INFO	Listening on 127.0.0.1:58299
+1602647239322	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zengj\\AppData\\Local\\Temp\\rust_mozprofileHtqjE8"
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+1602647241820	Marionette	INFO	Listening on port 58309
+1602647241934	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=14, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1602654882052	Marionette	INFO	Stopped listening on port 58309
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1602661948467	geckodriver	INFO	Listening on 127.0.0.1:58103
+1602661951509	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zengj\\AppData\\Local\\Temp\\rust_mozprofileCXT8S9"
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602661953934	Marionette	INFO	Listening on port 58112
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+1602661954166	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=14, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+1602662007328	Marionette	INFO	Stopped listening on port 58112
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1602662037663	geckodriver	INFO	Listening on 127.0.0.1:58303
+1602662040672	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zengj\\AppData\\Local\\Temp\\rust_mozprofileeEcaTb"
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+1602662043168	Marionette	INFO	Listening on port 58313
+1602662043286	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=14, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+1602662074388	Marionette	INFO	Stopped listening on port 58313
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1602662083058	geckodriver	INFO	Listening on 127.0.0.1:58447
+1602662086110	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zengj\\AppData\\Local\\Temp\\rust_mozprofilehaiHhh"
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+1602662088829	Marionette	INFO	Listening on port 58459
+1602662089232	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=14, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+1602662227397	Marionette	INFO	Stopped listening on port 58459
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1602662245765	geckodriver	INFO	Listening on 127.0.0.1:58719
+1602662248795	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zengj\\AppData\\Local\\Temp\\rust_mozprofile8zVKVB"
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602662251262	Marionette	INFO	Listening on port 58731
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+1602662251406	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=14, line 1: WebGL context was lost.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+1602662335475	Marionette	INFO	Stopped listening on port 58731
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1602662355449	geckodriver	INFO	Listening on 127.0.0.1:58942
+1602662358474	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zengj\\AppData\\Local\\Temp\\rust_mozprofileqjd54R"
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+1602662361512	Marionette	INFO	Listening on port 58953
+1602662361589	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=14, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+1602662455373	Marionette	INFO	Stopped listening on port 58953
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1602662606172	geckodriver	INFO	Listening on 127.0.0.1:59374
+1602662609182	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zengj\\AppData\\Local\\Temp\\rust_mozprofileatyeH8"
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602662611618	Marionette	INFO	Listening on port 59384
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+1602662611819	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=14, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+[Child 17440, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 545
+1602662654930	Marionette	INFO	Stopped listening on port 59384
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1602662680427	geckodriver	INFO	Listening on 127.0.0.1:59562
+1602662683437	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zengj\\AppData\\Local\\Temp\\rust_mozprofileFAnUMG"
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602662686037	Marionette	INFO	Listening on port 59574
+1602662686058	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+JavaScript error: , line 0: uncaught exception: Object
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=14, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+1602662710021	Marionette	INFO	Stopped listening on port 59574
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1602662793884	geckodriver	INFO	Listening on 127.0.0.1:59816
+1602662796902	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zengj\\AppData\\Local\\Temp\\rust_mozprofilet8tncv"
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+1602662799237	Marionette	INFO	Listening on port 59827
+1602662799519	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=14, line 1: WebGL context was lost.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+1602662850872	Marionette	INFO	Stopped listening on port 59827
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1602662868274	geckodriver	INFO	Listening on 127.0.0.1:60018
+1602662871289	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zengj\\AppData\\Local\\Temp\\rust_mozprofile0rnuEu"
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+1602662873701	Marionette	INFO	Listening on port 60030
+1602662873909	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=14, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1602662925646	Marionette	INFO	Stopped listening on port 60030
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1602662937178	geckodriver	INFO	Listening on 127.0.0.1:60213
+1602662940182	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zengj\\AppData\\Local\\Temp\\rust_mozprofile5m8fo4"
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602662942523	Marionette	INFO	Listening on port 60223
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+1602662942803	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=14, line 1: WebGL context was lost.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+1602663105275	Marionette	INFO	Stopped listening on port 60223
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1602663119537	geckodriver	INFO	Listening on 127.0.0.1:60548
+1602663122565	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zengj\\AppData\\Local\\Temp\\rust_mozprofilezKliws"
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602663124994	Marionette	INFO	Listening on port 60561
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+1602663125180	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=14, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+[Parent 19736, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1602665436531	Marionette	INFO	Stopped listening on port 60561
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1602668065279	geckodriver	INFO	Listening on 127.0.0.1:49515
+1602668068299	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zengj\\AppData\\Local\\Temp\\rust_mozprofile3YaBIr"
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+1602668070939	Marionette	INFO	Listening on port 49525
+1602668070968	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=14, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A0005,name=PHttpChannel::Msg_Cancel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A000D,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+1602668291617	Marionette	INFO	Stopped listening on port 49525
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+d64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602668190461	Marionette	INFO	Listening on port 50060
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+1602668190523	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=14, line 1: WebGL context was lost.
+JavaScript error: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: NS_ERROR_FAILURE: 
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+1602668200474	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+1602668319640	geckodriver	INFO	Listening on 127.0.0.1:50307
+1602668322666	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zengj\\AppData\\Local\\Temp\\rust_mozprofile1kPoNl"
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+1602668326228	Marionette	INFO	Listening on port 50321
+1602668326288	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=14, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+1602668537785	geckodriver	INFO	Listening on 127.0.0.1:50623
+1602668540819	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zengj\\AppData\\Local\\Temp\\rust_mozprofile3mkPwJ"
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602668543485	Marionette	INFO	Listening on port 50634
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+1602668543932	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=14, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+1602668552734	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+1602668695514	geckodriver	INFO	Listening on 127.0.0.1:50919
+1602668698542	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zengj\\AppData\\Local\\Temp\\rust_mozprofileKiUNeY"
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+1602668701453	Marionette	INFO	Listening on port 50933
+1602668701660	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=14, line 1: WebGL context was lost.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+1602668730680	geckodriver	INFO	Listening on 127.0.0.1:51080
+1602668733706	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zengj\\AppData\\Local\\Temp\\rust_mozprofile3LZc3R"
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+1602668736201	Marionette	INFO	Listening on port 51090
+1602668736318	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=14, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript error: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: NS_ERROR_FAILURE: 
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.

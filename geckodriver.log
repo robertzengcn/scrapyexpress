@@ -1621,3 +1621,109 @@ JavaScript error: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, 
 JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
 JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
 JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+1602685314106	geckodriver	INFO	Listening on 127.0.0.1:52535
+1602685317147	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ROBERT~1\\AppData\\Local\\Temp\\rust_mozprofilei7Am3g"
+1602685378578	geckodriver	INFO	Listening on 127.0.0.1:52596
+1602685381598	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ROBERT~1\\AppData\\Local\\Temp\\rust_mozprofileufHeBf"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602685385278	Marionette	INFO	Listening on port 52604
+1602685385775	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 697))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 351))
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=14, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+1602685410876	Marionette	INFO	Stopped listening on port 52604
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1602685426997	geckodriver	INFO	Listening on 127.0.0.1:52705
+1602685430016	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ROBERT~1\\AppData\\Local\\Temp\\rust_mozprofileweRCfn"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602685433452	Marionette	INFO	Listening on port 52713
+1602685433640	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 697))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 351))
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=14, line 1: WebGL context was lost.
+JavaScript error: https://campaign.aliexpress.com/wow/gcp/9ab458bc1f2b4b6885d4ece4e757d6a7_1598857100700?__poplayer_position_sign=pc_homepage&__prefix=&__poplayer_preserve_uuid=24317&wh_weex=true&wh_trace=true, line 362: ReferenceError: require is not defined
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+console.warn: services.settings: main/cfr sync interrupted by shutdown
+console.warn: services.settings: blocklists/addons-bloomfilters sync interrupted by shutdown
+console.warn: services.settings: main/messaging-experiments sync interrupted by shutdown
+console.warn: services.settings: main/whats-new-panel sync interrupted by shutdown
+console.warn: services.settings: main/top-sites sync interrupted by shutdown
+console.warn: services.settings: main/search-config sync interrupted by shutdown
+console.warn: services.settings: main/fxmonitor-breaches sync interrupted by shutdown
+console.warn: services.settings: main/pioneer-study-addons-v1 sync interrupted by shutdown
+console.warn: services.settings: main/message-groups sync interrupted by shutdown
+console.warn: services.settings: main/search-default-override-allowlist sync interrupted by shutdown
+console.warn: services.settings: main/url-classifier-skip-urls sync interrupted by shutdown
+console.warn: services.settings: blocklists/plugins sync interrupted by shutdown
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+conJavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=14, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+1602686013342	geckodriver	INFO	Listening on 127.0.0.1:53185
+1602686016363	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ROBERT~1\\AppData\\Local\\Temp\\rust_mozprofilehb86sS"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602686020014	Marionette	INFO	Listening on port 53194
+1602686020504	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 697))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 351))
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=14, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://assets.alicdn.com/g/ae-fe/detail-ui/0.0.34/home/webpush.js, line 737: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/ae-fe/detail-ui/0.0.34/home/webpush.js, line 737: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/ae-fe/detail-ui/0.0.34/home/webpush.js, line 737: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/ae-fe/detail-ui/0.0.34/home/webpush.js, line 737: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.dfb9ec3d.js, line 3: unreachable code after return statement
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+1602686172014	Marionette	INFO	Stopped listening on port 53194
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

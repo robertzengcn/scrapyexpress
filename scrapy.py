@@ -43,7 +43,11 @@ class Scrapy(object):
         print(pagenum)
         if pagenum>self.pagenum:
             self.pagenum=pagenum
-        
+        allitemlist=[]
+        plist=self.getprolistinpage()
+        print(plist)
+        self.browser.find_element_by_class_name('next-pagination-list')
+
         # for i in range(1, self.pagenum):
         #     self.scrolldown()
         #     currbtn=self.browser.find_element_by_class_name('next-current')
@@ -54,9 +58,8 @@ class Scrapy(object):
         #     print(linklist)
         # self.getprolistinpage()
 
-    '''
-    检查页面是否有广告存在，存在就关闭
-    '''    
+
+    #检查页面是否有广告存在，存在就关闭 
     def checkadexist(self): 
         try:
             uinextad = WebDriverWait(self.browser, 5).until(

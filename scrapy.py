@@ -45,9 +45,17 @@ class Scrapy(object):
             self.pagenum=pagenum
         allitemlist=[]
         plist=self.getprolistinpage()
-        print(plist)
-        self.browser.find_element_by_class_name('next-pagination-list')
-
+        allitemlist=allitemlist+plist#合并数组
+        nextpagdiv=self.browser.find_element_by_class_name('next-pagination-list')
+        
+        for i in range(2, self.pagenum):
+            try:
+                ibtn=nextpagdiv.find_element(By.XPATH, '//button[text()="'+str(i)+'"]')
+                ibtn.click()
+                self.browser.implicitly_wait(5)
+            except NoSuchElementException:
+                print("not find 20201015102155")
+       
         # for i in range(1, self.pagenum):
         #     self.scrolldown()
         #     currbtn=self.browser.find_element_by_class_name('next-current')
@@ -93,6 +101,7 @@ class Scrapy(object):
         # self.scrollcenter()
         self.scrolldownpage()
         p4p = self.browser.find_element_by_id("p4p")
+        self.browser.execute_script("arguments[0].scrollIntoView();", p4p)
         actions = ActionChains(self.browser)
         actions.move_to_element(p4p).perform()
         totalpage=self.browser.find_element_by_class_name('total-page')

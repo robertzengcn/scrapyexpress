@@ -6,6 +6,11 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
+import os
+from datetime import date
+
+import time;
+
 class Scrapy(object):
 
     def __init__(self):
@@ -14,6 +19,12 @@ class Scrapy(object):
         self.pagenum=1
         
     def startBykeyword(self,keyword,profiles=None):
+        today = date.today()
+        d1 = today.strftime("%Y-%m-%d")
+        self.resultdirectory='./result/'+d1+'/'
+        if not os.path.exists(self.resultdirectory):
+            os.makedirs(self.resultdirectory)
+        self.csvfile=keyword+'_'+time.time()
         #profiles=r"C:\Users\robert zeng\AppData\Roaming\Mozilla\Firefox\Profiles\qcsnl19h.default-release"
         if profiles !=None:           
             fp = webdriver.FirefoxProfile(profiles)
@@ -43,16 +54,21 @@ class Scrapy(object):
         print(pagenum)
         if pagenum>self.pagenum:
             self.pagenum=pagenum
-        allitemlist=[]
+        # allitemlist=[]
         plist=self.getprolistinpage()
-        allitemlist=allitemlist+plist#合并数组
+        # allitemlist=allitemlist+plist#合并数组
+
         nextpagdiv=self.browser.find_element_by_class_name('next-pagination-list')
         
         for i in range(2, self.pagenum):
             try:
                 ibtn=nextpagdiv.find_element(By.XPATH, '//button[text()="'+str(i)+'"]')
                 ibtn.click()
-                self.browser.implicitly_wait(5)
+                self.browser.implicitly_wait(15)
+                self.movetoitem("p4p")
+                self.checkadexist()
+                self.movetoitembyclass("next-pagination-list")
+
             except NoSuchElementException:
                 print("not find 20201015102155")
        
@@ -99,11 +115,7 @@ class Scrapy(object):
         # self.browser.implicitly_wait(2)#等待页面加载
         # self.scrolldown()#再滚动到页面底部
         # self.scrollcenter()
-        self.scrolldownpage()
-        p4p = self.browser.find_element_by_id("p4p")
-        self.browser.execute_script("arguments[0].scrollIntoView();", p4p)
-        actions = ActionChains(self.browser)
-        actions.move_to_element(p4p).perform()
+        self.movetoitem("p4p")
         totalpage=self.browser.find_element_by_class_name('total-page')
         totalpage = WebDriverWait(self.browser, 10).until(
             EC.visibility_of_element_located((By.CLASS_NAME, 'total-page'))
@@ -161,6 +173,23 @@ class Scrapy(object):
             print(command)
             self.browser.execute_script(command)
             self.browser.implicitly_wait(3.5)#等待页面加载
+    #移动到feature product
+    def movetoitem(self,item):
+        self.scrolldownpage()
+        p4p = self.browser.find_element_by_id(item)
+        self.browser.execute_script("arguments[0].scrollIntoView();", p4p)
+        actions = ActionChains(self.browser)
+        actions.move_to_element(p4p).perform()
+    def movetoitembyclass(self,item):
+        self.scrolldownpage()
+        p4p = self.browser.find_element_by_class_name(item)
+        self.browser.execute_script("arguments[0].scrollIntoView();", p4p)
+        actions = ActionChains(self.browser)
+        actions.move_to_element(p4p).perform() 
+        # 把数据写入csv
+    def writedatacsv(self,data):
+
+
 
 
        

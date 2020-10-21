@@ -8,7 +8,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 import os
 from datetime import date
-
+import csv 
 import time;
 
 class Scrapy(object):
@@ -24,7 +24,7 @@ class Scrapy(object):
         self.resultdirectory='./result/'+d1+'/'
         if not os.path.exists(self.resultdirectory):
             os.makedirs(self.resultdirectory)
-        self.csvfile=keyword+'_'+time.time()
+        self.csvfile=self.resultdirectory+keyword+'_'+str(time.time())+'.csv'
         #profiles=r"C:\Users\robert zeng\AppData\Roaming\Mozilla\Firefox\Profiles\qcsnl19h.default-release"
         if profiles !=None:           
             fp = webdriver.FirefoxProfile(profiles)
@@ -55,14 +55,18 @@ class Scrapy(object):
         if pagenum>self.pagenum:
             self.pagenum=pagenum
         # allitemlist=[]
-        plist=self.getprolistinpage()
-        # allitemlist=allitemlist+plist#合并数组
-
+        # plist=self.getprolistinpage()
+        
+        # self.writedatacsv(plist)
+        self.getlistpagew()
         nextpagdiv=self.browser.find_element_by_class_name('next-pagination-list')
         
         for i in range(2, self.pagenum):
             try:
                 ibtn=nextpagdiv.find_element(By.XPATH, '//button[text()="'+str(i)+'"]')
+                self.browser.execute_script("arguments[0].scrollIntoView();", ibtn)
+                jscommand="var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);"+ "var elementTop = arguments[0].getBoundingClientRect().top;"+ "window.scrollBy(0, elementTop-(viewPortHeight/2));"
+                self.browser.execute_script(jscommand, ibtn)
                 ibtn.click()
                 self.browser.implicitly_wait(15)
                 self.movetoitem("p4p")
@@ -116,6 +120,7 @@ class Scrapy(object):
         # self.scrolldown()#再滚动到页面底部
         # self.scrollcenter()
         self.movetoitem("p4p")
+        
         totalpage=self.browser.find_element_by_class_name('total-page')
         totalpage = WebDriverWait(self.browser, 10).until(
             EC.visibility_of_element_located((By.CLASS_NAME, 'total-page'))
@@ -180,6 +185,8 @@ class Scrapy(object):
         self.browser.execute_script("arguments[0].scrollIntoView();", p4p)
         actions = ActionChains(self.browser)
         actions.move_to_element(p4p).perform()
+        jscommand="var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);"+ "var elementTop = arguments[0].getBoundingClientRect().top;"+ "window.scrollBy(0, elementTop-(viewPortHeight/2));"
+        self.browser.execute_script(jscommand, p4p)
     def movetoitembyclass(self,item):
         self.scrolldownpage()
         p4p = self.browser.find_element_by_class_name(item)
@@ -188,10 +195,30 @@ class Scrapy(object):
         actions.move_to_element(p4p).perform() 
         # 把数据写入csv
     def writedatacsv(self,data):
+        resdata=[]
+        for word in data:
+            resdata.append([word])
+
+        file = open(self.csvfile, 'w+', newline ='')
+        with file:     
+            write = csv.writer(file) 
+            write.writerows(resdata) 
+    # 获取页面，写入csv
+    def getlistpagew(self):
+        plist=self.getprolistinpage()
+        self.writedatacsv(plist)
+    # 读取csv
+    def readcsv(self,file):
+        res=[]
+        f = open(file, newline='')
+        csv_reader = csv.reader(f)
+        for row in csv_reader:
+            res.append(row[0])
+        return res 
+        # 获取产品详情   
+    def getproductdetail(self,pageurl):
+        self.browser.get(pageurl)
+        
 
 
 
-
-       
-
-           

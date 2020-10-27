@@ -2350,8 +2350,14 @@ JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=21, line
 JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
 JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
 JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
-1603250546535	geckodriver	INFO	Listening on 127.0.0.1:61576
-1603250549561	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zengj\\AppData\\Local\\Temp\\rust_mozprofileHsonco"
+1603259206378	Marionette	INFO	Stopped listening on port 61291
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Temp\\rust_mozprofileHsonco"
 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
@@ -2378,3 +2384,18 @@ JavaScript error: chrome://marionette/content/proxy.js, line 218: TypeError: thi
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1603333828817	geckodriver	INFO	Listening on 127.0.0.1:56020
+1603333831849	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zengj\\AppData\\Local\\Temp\\rust_mozprofilelHcjB6"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1603333835038	Marionette	INFO	Listening on port 56032
+1603333835528	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/ae-fe/detail-ui/0.0.35/home/webpush.js, line 737: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/ae-fe/detail-ui/0.0.35/home/webpush.js, line 737: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/ae-fe/detail-ui/0.0.35/home/webpush.js, line 737: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/ae-fe/detail-ui/0.0.35/home/webpush.js, line 737: WebGL context was lost.

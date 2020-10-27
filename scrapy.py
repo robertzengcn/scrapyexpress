@@ -9,7 +9,8 @@ from selenium.webdriver.common.action_chains import ActionChains
 import os
 from datetime import date
 import csv 
-import time;
+import time
+import re
 
 class Scrapy(object):
 
@@ -17,6 +18,13 @@ class Scrapy(object):
         
         self.browser = None
         self.pagenum=1
+
+    def initbrowser(self,profiles=None):
+        if profiles !=None:           
+            fp = webdriver.FirefoxProfile(profiles)
+            self.browser = webdriver.Firefox(fp)
+        else:
+            self.browser = webdriver.Firefox()
         
     def startBykeyword(self,keyword,profiles=None):
         today = date.today()
@@ -26,11 +34,7 @@ class Scrapy(object):
             os.makedirs(self.resultdirectory)
         self.csvfile=self.resultdirectory+keyword+'_'+str(time.time())+'.csv'
         #profiles=r"C:\Users\robert zeng\AppData\Roaming\Mozilla\Firefox\Profiles\qcsnl19h.default-release"
-        if profiles !=None:           
-            fp = webdriver.FirefoxProfile(profiles)
-            self.browser = webdriver.Firefox(fp)
-        else:
-            self.browser = webdriver.Firefox()
+        self.initbrowser()
         self.browser.get('https://www.aliexpress.com')
         keyinput = self.browser.find_element_by_xpath('//*[@id="search-key"]')
         keyinput.send_keys(keyword)
@@ -217,8 +221,51 @@ class Scrapy(object):
         return res 
         # 获取产品详情   
     def getproductdetail(self,pageurl):
+        self.initbrowser()
         self.browser.get(pageurl)
+        # 慢慢滚动页面
+        self.scrolldownpage()
+        title=self.browser.find_element_by_class_name('product-title').text
+        title=title.strip()
+        pricestring=self.browser.find_element_by_class_name('product-price-value').text
+        pricestring=pricestring.strip()
+
+        #处理sku
+        productsku=self.browser.find_element_by_class_name('product-sku')
         
+        skuwrap=productsku.find_elements_by_class_name('sku-property')
+        for skudiv in skuwrap:
+            # 检查文字属性
+            skutitle=skudiv.find_element_by_class_name('sku-title').text
+            
+        
+
+    def handleitembyfile(self,file):
+        if(not os.path.exists(file)):
+            raise Exception('file not exist')
+        listres=self.readcsv(file)#读取csv
+        if not listres:
+            raise Exception('file empty')
+        # 循环遍历数组
+        regex = re.compile(
+        r'^(?:http|ftp)s?://' # http:// or https://
+        r'(?:(?:[A-Z0-9](?:[A-Z0-9-]{0,61}[A-Z0-9])?\.)+(?:[A-Z]{2,6}\.?|[A-Z0-9-]{2,}\.?)|' #domain...
+        r'localhost|' #localhost...
+        r'\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})' # ...or ip
+        r'(?::\d+)?' # optional port
+        r'(?:/?|[/?]\S+)$', re.IGNORECASE)
+        for i in listres:
+            if re.match(regex, i) is not None:
+              self.getproductdetail(i)
+            else:
+                continue
+
+
+           
+
+
+
+
 
 
 

@@ -237,6 +237,9 @@ class Scrapy(object):
         for skudiv in skuwrap:
             # 检查文字属性
             skutitle=skudiv.find_element_by_class_name('sku-title').text
+            # skutitle=skudiv.find_element_by_class_name('sku-title').text
+            properitemlist=skudiv.find_elements_by_class_name('sku-property-item')
+            # 检查是图片属性，还是文字属性
             
         
 

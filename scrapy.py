@@ -11,6 +11,7 @@ from datetime import date
 import csv 
 import time
 import re
+from random import randint
 
 class Scrapy(object):
 
@@ -229,19 +230,57 @@ class Scrapy(object):
         title=title.strip()
         pricestring=self.browser.find_element_by_class_name('product-price-value').text
         pricestring=pricestring.strip()
-
+        #获取产品主图
+        mainimage=self.getMainimgurl()
         #处理sku
         productsku=self.browser.find_element_by_class_name('product-sku')
-        
+        oursku='AO'+str(int(time.time()))+str(randint(100, 999))
         skuwrap=productsku.find_elements_by_class_name('sku-property')
+        #定义属性容器
+        allattri={}
         for skudiv in skuwrap:
             # 检查文字属性
             skutitle=skudiv.find_element_by_class_name('sku-title').text
             # skutitle=skudiv.find_element_by_class_name('sku-title').text
             properitemlist=skudiv.find_elements_by_class_name('sku-property-item')
-            # 检查是图片属性，还是文字属性
+            allattri[skutitle]=[]
+            # 检查是否是图片属性
+            for pitem in properitemlist:
+                try:                   
+                    imgattr=pitem.find_element_by_tag_name('img') #查找图片属性                   
+                    imgattr.click()
+                    self.browser.implicitly_wait(10)
+                    mainimg=self.getMainimgurl()
+                    
+                    atttitle=imgattr.get_attribute("title")
+                    attdic=dict(title=atttitle,image=mainimg)
+                    
+                except TimeoutException:
+                    print("time out 202010290929247")               
+                except NoSuchElementException:
+                    print("not find 202010290929249")    
+                try:
+                    protextdiv=pitem.find_elements_by_class_name('sku-property-text')
+                    prospantag=protextdiv.find_element_by_tag_name('span').text
+                    attdic=dict(title=prospantag)
+                    allattri[skutitle].append(attdic)
+                except TimeoutException:
+                    print("time out 202010291049266")               
+                except NoSuchElementException:
+                    print("not find 202010291049268")
+
             
-        
+    # 获取产品页的主图               
+    def getMainimgurl(self):
+        try:
+            mainimg=self.browser.find_elements_by_class_name('magnifier-image')
+            return mainimg.get_attribute("src")        
+        except TimeoutException:
+            print("time out 202010291047276")
+            return None               
+        except NoSuchElementException:
+            print("not find 202010291047278") 
+            return None 
 
     def handleitembyfile(self,file):
         if(not os.path.exists(file)):

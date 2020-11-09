@@ -162,6 +162,17 @@ class Scrapy(object):
             print("not find 20201008124081")
             return False
         uinextad.click()
+    def clickAdifram(self):
+        raximglist=self.browser.find_elements_by_class_name('rax-image') 
+        for raxi in raximglist:
+            try:
+                raxi.click() 
+            except TimeoutException:
+                print("time out 202011051025171")
+                return False
+            except NoSuchElementException:
+                print("not find 202011051025175")
+                return False    
 
     #滚动到页面底部   
     def scrolldown(self):
@@ -194,10 +205,14 @@ class Scrapy(object):
         self.browser.execute_script(jscommand, p4p)
     def movetoitembyclass(self,item):
         self.scrolldownpage()
-        p4p = self.browser.find_element_by_class_name(item)
-        self.browser.execute_script("arguments[0].scrollIntoView();", p4p)
-        actions = ActionChains(self.browser)
-        actions.move_to_element(p4p).perform() 
+        try:
+            p4p = self.browser.find_element_by_class_name(item)
+            self.browser.execute_script("arguments[0].scrollIntoView();", p4p)
+            actions = ActionChains(self.browser)
+            actions.move_to_element(p4p).perform() 
+        except NoSuchElementException:
+            print("not find 20201008124081")
+            return False    
         # 把数据写入csv
     def writedatacsv(self,data):
         resdata=[]
@@ -223,11 +238,15 @@ class Scrapy(object):
         # 获取产品详情   
     def getproductdetail(self,pageurl):
         self.initbrowser()
+        
         self.browser.get(pageurl)
+        self.browser.maximize_window()
         # 慢慢滚动页面
         self.scrolldownpage()
-        title=self.browser.find_element_by_class_name('product-title').text
-        title=title.strip()
+        titlediv=self.browser.find_element_by_class_name('product-title')
+        
+        title=titlediv.text.strip()
+        self.movetoitembyclass('product-title')
         pricestring=self.browser.find_element_by_class_name('product-price-value').text
         pricestring=pricestring.strip()
         #获取产品主图
@@ -238,6 +257,7 @@ class Scrapy(object):
         skuwrap=productsku.find_elements_by_class_name('sku-property')
         #定义属性容器
         allattri={}
+        self.closeiframead()
         for skudiv in skuwrap:
             # 检查文字属性
             skutitle=skudiv.find_element_by_class_name('sku-title').text
@@ -248,6 +268,7 @@ class Scrapy(object):
             for pitem in properitemlist:
                 try:                   
                     imgattr=pitem.find_element_by_tag_name('img') #查找图片属性                   
+                    
                     imgattr.click()
                     self.browser.implicitly_wait(10)
                     mainimg=self.getMainimgurl()
@@ -260,7 +281,7 @@ class Scrapy(object):
                 except NoSuchElementException:
                     print("not find 202010290929249")    
                 try:
-                    protextdiv=pitem.find_elements_by_class_name('sku-property-text')
+                    protextdiv=pitem.find_element_by_class_name('sku-property-text')
                     prospantag=protextdiv.find_element_by_tag_name('span').text
                     attdic=dict(title=prospantag)
                     allattri[skutitle].append(attdic)
@@ -268,12 +289,13 @@ class Scrapy(object):
                     print("time out 202010291049266")               
                 except NoSuchElementException:
                     print("not find 202010291049268")
-
+        fulldata=dict(title=title,price=pricestring,mainimg=mainimage,sku=oursku,allattribute=allattri)
+        print(fulldata)
             
     # 获取产品页的主图               
     def getMainimgurl(self):
         try:
-            mainimg=self.browser.find_elements_by_class_name('magnifier-image')
+            mainimg=self.browser.find_element_by_class_name('magnifier-image')
             return mainimg.get_attribute("src")        
         except TimeoutException:
             print("time out 202010291047276")
@@ -281,6 +303,23 @@ class Scrapy(object):
         except NoSuchElementException:
             print("not find 202010291047278") 
             return None 
+    #关闭iframe中的广告
+    def closeiframead(self):
+        seq = self.browser.find_elements_by_tag_name('iframe')
+        # print(len(seq))
+        for index in range(len(seq)):
+            try:
+                self.browser.switch_to_default_content()
+                iframe = self.browser.find_elements_by_tag_name('iframe')[index]
+                name=iframe.get_attribute("name")
+            
+                self.browser.switch_to.frame(iframe)
+                self.clickAdifram()
+            except IndexError:
+                print("iframe has been close 202011051030319")    
+        self.browser.switch_to.default_content()    
+
+
 
     def handleitembyfile(self,file):
         if(not os.path.exists(file)):

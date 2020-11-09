@@ -166,6 +166,7 @@ class Scrapy(object):
         raximglist=self.browser.find_elements_by_class_name('rax-image') 
         for raxi in raximglist:
             try:
+                self.browser.implicitly_wait(2)
                 raxi.click() 
             except TimeoutException:
                 print("time out 202011051025171")
@@ -275,7 +276,7 @@ class Scrapy(object):
                     
                     atttitle=imgattr.get_attribute("title")
                     attdic=dict(title=atttitle,image=mainimg)
-                    
+                    allattri[skutitle].append(attdic)
                 except TimeoutException:
                     print("time out 202010290929247")               
                 except NoSuchElementException:

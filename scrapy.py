@@ -250,6 +250,22 @@ class Scrapy(object):
         self.movetoitembyclass('product-title')
         pricestring=self.browser.find_element_by_class_name('product-price-value').text
         pricestring=pricestring.strip()
+        lowprice=0
+        heightprice=0
+        substring = "-"
+        try:
+            pricestring.index(substring)
+        except ValueError:
+            # not find -
+            lowprice=pricestring
+            heightprice=pricestring
+        else:
+            plist=pricestring.split('-')
+            lowprice=plist[0]
+            dollpos=plist[0].find('$')
+            if (dollpos!= -1):
+                lowprice=plist[0][dollpos+1:].strip()
+                heightprice=plist[1].strip()
         #获取产品主图
         mainimage=self.getMainimgurl()
         #处理sku
@@ -263,6 +279,9 @@ class Scrapy(object):
             # 检查文字属性
             skutitle=skudiv.find_element_by_class_name('sku-title').text
             # skutitle=skudiv.find_element_by_class_name('sku-title').text
+            skukeypos=skutitle.find(':')
+            if(skukeypos!=-1):
+                skutitle=skutitle[0:skukeypos].strip()
             properitemlist=skudiv.find_elements_by_class_name('sku-property-item')
             allattri[skutitle]=[]
             # 检查是否是图片属性
@@ -290,7 +309,7 @@ class Scrapy(object):
                     print("time out 202010291049266")               
                 except NoSuchElementException:
                     print("not find 202010291049268")
-        fulldata=dict(title=title,price=pricestring,mainimg=mainimage,sku=oursku,allattribute=allattri)
+        fulldata=dict(title=title,heightprice=heightprice,lowprice=lowprice,mainimg=mainimage,sku=oursku,allattribute=allattri)
         print(fulldata)
             
     # 获取产品页的主图               

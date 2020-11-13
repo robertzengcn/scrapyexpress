@@ -33,7 +33,8 @@ class Scrapy(object):
         self.resultdirectory='./result/'+d1+'/'
         if not os.path.exists(self.resultdirectory):
             os.makedirs(self.resultdirectory)
-        self.csvfile=self.resultdirectory+keyword+'_'+str(time.time())+'.csv'
+        self.csvfile=self.resultdirectory+keyword+'_list'+str(time.time())+'.csv'
+        self.resultfile=self.resultdirectory+keyword+'_result'+str(time.time())+'.csv'
         #profiles=r"C:\Users\robert zeng\AppData\Roaming\Mozilla\Firefox\Profiles\qcsnl19h.default-release"
         self.initbrowser()
         self.browser.get('https://www.aliexpress.com')
@@ -64,22 +65,9 @@ class Scrapy(object):
         
         # self.writedatacsv(plist)
         self.getlistpagew()
-        nextpagdiv=self.browser.find_element_by_class_name('next-pagination-list')
-        
-        for i in range(2, self.pagenum):
-            try:
-                ibtn=nextpagdiv.find_element(By.XPATH, '//button[text()="'+str(i)+'"]')
-                self.browser.execute_script("arguments[0].scrollIntoView();", ibtn)
-                jscommand="var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);"+ "var elementTop = arguments[0].getBoundingClientRect().top;"+ "window.scrollBy(0, elementTop-(viewPortHeight/2));"
-                self.browser.execute_script(jscommand, ibtn)
-                ibtn.click()
-                self.browser.implicitly_wait(15)
-                self.movetoitem("p4p")
-                self.checkadexist()
-                self.movetoitembyclass("next-pagination-list")
-
-            except NoSuchElementException:
-                print("not find 20201015102155")
+        self.scrapyListpage(self.pagenum)
+        #读取列表结果csv
+        self.handleitembyfile(self.csvfile)
        
         # for i in range(1, self.pagenum):
         #     self.scrolldown()
@@ -90,7 +78,24 @@ class Scrapy(object):
         #     linklist=self.getprolistinpage()
         #     print(linklist)
         # self.getprolistinpage()
-
+    # 抓取列表页
+    def scrapyListpage(self,pagenum):
+        nextpagdiv=self.browser.find_element_by_class_name('next-pagination-list')
+        
+        for i in range(2, pagenum):
+            try:
+                ibtn=nextpagdiv.find_element(By.XPATH, '//button[text()="'+str(i)+'"]')
+                self.browser.execute_script("arguments[0].scrollIntoView();", ibtn)
+                jscommand="var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);"+ "var elementTop = arguments[0].getBoundingClientRect().top;"+ "window.scrollBy(0, elementTop-(viewPortHeight/2));"
+                self.browser.execute_script(jscommand, ibtn)
+                ibtn.click()
+                self.browser.implicitly_wait(15)
+                self.movetoitem("p4p")
+                self.checkadexist()
+                self.movetoitembyclass("next-pagination-list")
+                self.getlistpagew()
+            except NoSuchElementException:
+                print("not find 20201015102155") 
 
     #检查页面是否有广告存在，存在就关闭 
     def checkadexist(self): 
@@ -311,7 +316,7 @@ class Scrapy(object):
                     print("not find 202010291049268")
         fulldata=dict(title=title,heightprice=heightprice,lowprice=lowprice,mainimg=mainimage,sku=oursku,allattribute=allattri)
         print(fulldata)
-            
+        return fulldata    
     # 获取产品页的主图               
     def getMainimgurl(self):
         try:
@@ -357,10 +362,14 @@ class Scrapy(object):
         r'(?:/?|[/?]\S+)$', re.IGNORECASE)
         for i in listres:
             if re.match(regex, i) is not None:
-              self.getproductdetail(i)
+              pdata=self.getproductdetail(i)
+              self.writeInfocsv(pdata)
             else:
                 continue
-
+    # 把产品数据写入csv
+    def writeInfocsv(self,data):        
+        f = open(self.resultfile, 'w')
+        
 
            
 

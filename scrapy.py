@@ -277,9 +277,13 @@ class Scrapy(object):
         productsku=self.browser.find_element_by_class_name('product-sku')
         oursku='AO'+str(int(time.time()))+str(randint(100, 999))
         skuwrap=productsku.find_elements_by_class_name('sku-property')
+        
+
         #定义属性容器
         allattri={}
         self.closeiframead()
+        # 定义其他图片属性
+        otherimglist=self.getOimages()
         for skudiv in skuwrap:
             # 检查文字属性
             skutitle=skudiv.find_element_by_class_name('sku-title').text
@@ -314,9 +318,23 @@ class Scrapy(object):
                     print("time out 202010291049266")               
                 except NoSuchElementException:
                     print("not find 202010291049268")
-        fulldata=dict(title=title,heightprice=heightprice,lowprice=lowprice,mainimg=mainimage,sku=oursku,allattribute=allattri)
+        fulldata=dict(title=title,heightprice=heightprice,lowprice=lowprice,mainimg=mainimage,sku=oursku,allattribute=allattri,otherimg=otherimglist)
         print(fulldata)
-        return fulldata    
+        return fulldata 
+    def getOimages(self):
+        oimage=[]
+        try: 
+            oimgul=self.browser.find_element_by_class_name('images-view-list')    
+            lis=oimgul.find_elements_by_tag_name('li')
+            for litem in lis:
+                litem.click()
+                self.browser.implicitly_wait(5)
+                oimgurl=self.getMainimgurl()
+                oimage.append(oimgurl)
+        except NoSuchElementException:
+            print("not find other image 2020111609290930")
+            return None
+        return oimage
     # 获取产品页的主图               
     def getMainimgurl(self):
         try:
@@ -334,7 +352,7 @@ class Scrapy(object):
         # print(len(seq))
         for index in range(len(seq)):
             try:
-                self.browser.switch_to_default_content()
+                self.browser.switch_to.default_content()
                 iframe = self.browser.find_elements_by_tag_name('iframe')[index]
                 name=iframe.get_attribute("name")
             
@@ -366,14 +384,78 @@ class Scrapy(object):
               self.writeInfocsv(pdata)
             else:
                 continue
+    # 写入csv第一行        
+    def writeheader(self):
+        f = open(self.resultfile, 'w',encoding='utf-8-sig',newline='')
+        with f:
+            fnames = ['product name', 'product_txt_descript','high price','low price','main image','variation_theme','variation_value','Parentage','item_sku','Parent SKU','image 1','image 2','image 3','image 4','image 5','image 6','image 7','image 8']
+            writer = csv.DictWriter(f, fieldnames=fnames) 
+           
+            writer.writeheader()
     # 把产品数据写入csv
     def writeInfocsv(self,data):        
-        f = open(self.resultfile, 'w')
-        
+        with open(self.resultfile,'a',encoding='utf-8-sig',newline='') as fd:
+            # fnames = ['product name', 'product_txt_descript','log price','high price','main image','variation_theme','Parentage','item_sku','Parent SKU','image 1','image 2','image 3','image 4','image 5','image 6','image 7','image 8']
+            # writer = csv.DictWriter(fd, fieldnames=fnames)
+            # writer.writeheader()
 
-           
+            title=data.get('title')
+            allattribute=data.get('allattribute')
+            heightprice=data.get('heightprice')
+            lowprice=data.get('lowprice')
+            mainimg=data.get('mainimg')
+            parentsku=data.get('sku')
+            otherimg=data.get('otherimg')
+            attlist=[]
+            attrikeys=list(allattribute.keys())
+            for akey in attrikeys:
+                avavarr=allattribute.get(akey)
+                for akey in avavarr:
+                    if isinstance(akey,dict):
+                        attrval=avavarr.get('title')
+                        aitem=dict(attribute_name=akey,attribute_value=attrval)
+                        aimage=attrval=avavarr.get('image')
+                        if aimage!=None:
+                           aitem['attribute_image'] = aimage
+                        else:
+                           aitem['attribute_image'] = None
+                        attlist.append(aitem)
+            
+            
+            
+            comfieldnames = ['product_name', 'product_txt_descript','high_price','low_price','main_image','variation_theme','variation_value','parentage','item_sku','parent_sku','image_1','image_2','image_3','image_4','image_5','image_6','image_7','image_8']
+            # 写入主属性
+            writer = csv.DictWriter(fd, fieldnames=comfieldnames)
+            parendvale=dict(product_name=title,product_txt_descript=None,high_price=heightprice,low_price=lowprice,main_image=mainimg,variation_theme=None,parentage=None,item_sku=None,parent_sku=parentsku)
+            
+            for x in range(0, len(otherimg)):
+                if x<8:
+                    parendvale['image_'+str(int(x)+1)]=otherimg[x]
+
+            writer.writerow(parendvale)
+            # 开始循环属性
+            si=1
+            for sitem in attlist:
+                childsku=parentsku+"_"+str(si)
+                childvale=dict(product_name=title,product_txt_descript=None,high_price=heightprice,low_price=lowprice,main_image=mainimg,variation_theme=None,parentage=None,item_sku=childsku,parent_sku=parentsku)    
+                childvale['variation_theme']=sitem.get('attribute_name')
+                childvale['variation_value']=sitem.get('attribute_value')
+                mainimg=sitem.get('attribute_image')
+                if mainimg !=None:
+                    childvale['main_image']=mainimg
+                si += 1
+                for x in range(0, len(otherimg)):
+                    if x<8:
+                        childvale['image_'+str(int(x)+1)]=otherimg[x]
+                writer.writerow(childvale)
 
 
+                # if isinstance(avav,dict):
+
+
+
+
+            # writer.writerow({'first_name' : 'John', 'last_name': 'Smith'})
 
 
 

@@ -315,6 +315,11 @@ class Scrapy(object):
         except NoSuchElementException:
             print("not find product special text")
             return None
+    # 移除HTML,除了img, br        
+    def cleanhtml(self,raw_html):
+        cleanr = re.compile(r'<(?!img).*?>')
+        cleantext = cleanr.sub('', raw_html)
+        return cleantext
 
         # 获取产品详情
     def getproductdetail(self, pageurl):
@@ -356,6 +361,8 @@ class Scrapy(object):
         skuwrap = productsku.find_elements_by_class_name('sku-property')
         # 处理url
         purl = furl(pageurl).remove(args=True, fragment=True).url
+       
+       
         specialtxt = self.getspecial()
 
         # 定义属性容器
@@ -363,6 +370,10 @@ class Scrapy(object):
         self.closeiframead()
         # 定义其他图片属性
         otherimglist = self.getOimages()
+        # 处理详情
+        itemdetaildiv=self.browser.find_element_by_id('product-description')
+        detailhtml=itemdetaildiv.get_attribute('innerHTML')
+        detailhtml=self.cleanhtml(detailhtml)
         for skudiv in skuwrap:
             # 检查文字属性
             skutitle = skudiv.find_element_by_class_name('sku-title').text
@@ -377,7 +388,7 @@ class Scrapy(object):
             for pitem in properitemlist:
                 try:
                     imgattr = pitem.find_element_by_tag_name('img')  # 查找图片属性
-
+                         
                     imgattr.click()
                     self.browser.implicitly_wait(10)
                     mainimg = self.getMainimgurl()
@@ -389,6 +400,8 @@ class Scrapy(object):
                     print("time out 202010290929247")
                 except NoSuchElementException:
                     print("not find 202010290929249")
+                except ElementClickInterceptedException:
+                    print("attribute not availbale 202011291135393")    
                 try:
                     protextdiv = pitem.find_element_by_class_name(
                         'sku-property-text')
@@ -403,7 +416,7 @@ class Scrapy(object):
         if mainimage==None:
             if otherimglist[0]!=None:
                 mainimage=otherimglist[0]
-        fulldata = dict(title=title, heightprice=heightprice, lowprice=lowprice, mainimg=mainimage, sku=oursku, allattribute=allattri, otherimg=otherimglist, url=purl, specialtxt=specialtxt)
+        fulldata = dict(title=title, heightprice=heightprice, lowprice=lowprice, mainimg=mainimage, sku=oursku, allattribute=allattri, otherimg=otherimglist, url=purl, specialtxt=specialtxt,detailhtml=detailhtml)
         print(fulldata)
         # self.browser.close()
         return fulldata
@@ -487,7 +500,7 @@ class Scrapy(object):
         f = open(resultfile, 'w', encoding='utf-8-sig', newline='')
         with f:
             fnames = ['product name', 'product_txt_descript', 'high price', 'low price', 'main image', 'url','variation_theme', 'variation_value',
-                      'Parentage', 'item_sku', 'Parent SKU', 'image 1', 'image 2', 'image 3', 'image 4', 'image 5', 'image 6', 'image 7', 'image 8']
+                      'Parentage', 'item_sku', 'Parent SKU', 'image 1', 'image 2', 'image 3', 'image 4', 'image 5', 'image 6', 'image 7', 'image 8','detailhtml']
             writer = csv.DictWriter(f, fieldnames=fnames)
 
             writer.writeheader()
@@ -508,6 +521,7 @@ class Scrapy(object):
             otherimg = data.get('otherimg')
             specialtxt=data.get('specialtxt')
             url=data.get('url')
+            detailhtml=data.get('detailhtml')
             attlist = []
             attrikeys = list(allattribute.keys())
             for akeyo in attrikeys:
@@ -525,11 +539,11 @@ class Scrapy(object):
                         attlist.append(aitem)
 
             comfieldnames = ['product_name', 'product_txt_descript', 'high_price', 'low_price', 'main_image', 'url','variation_theme', 'variation_value',
-                             'parentage', 'item_sku', 'parent_sku', 'image_1', 'image_2', 'image_3', 'image_4', 'image_5', 'image_6', 'image_7', 'image_8']
+                             'parentage', 'item_sku', 'parent_sku', 'image_1', 'image_2', 'image_3', 'image_4', 'image_5', 'image_6', 'image_7', 'image_8','detailhtml']
             # 写入主属性
             writer = csv.DictWriter(fd, fieldnames=comfieldnames)
             parendvale = dict(product_name=title, product_txt_descript=specialtxt, high_price=heightprice, low_price=lowprice,
-                              main_image=mainimg, url=url,variation_theme=None, parentage=None, item_sku=None, parent_sku=parentsku)
+                              main_image=mainimg, url=url,variation_theme=None, parentage=None, item_sku=None, parent_sku=parentsku,detailhtml=detailhtml)
 
             for x in range(0, len(otherimg)):
                 if x < 8:

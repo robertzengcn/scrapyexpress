@@ -3,10 +3,10 @@ from scrapy import Scrapy
 import time
 
 class TestScrapy(unittest.TestCase):
-
+    #python .\scrapy_test.py TestScrapy.testgetproductdetail
     def testgetproductdetail(self):
         sc=Scrapy()
-        url="https://www.aliexpress.com/item/4001310257213.html?spm=a2g0o.detail.1000013.2.20cd1dc9m6lYrz&gps-id=pcDetailBottomMoreThisSeller&scm=1007.13339.169870.0&scm_id=1007.13339.169870.0&scm-url=1007.13339.169870.0&pvid=fc0acb05-ae58-4e60-a020-300bf2ee008c&_t=gps-id:pcDetailBottomMoreThisSeller,scm-url:1007.13339.169870.0,pvid:fc0acb05-ae58-4e60-a020-300bf2ee008c,tpp_buckets:668%230%23131923%230_668%23808%233772%23885_668%23888%233325%2313_668%232846%238109%23290_668%232717%237561%23398_668%231000022185%231000066059%230_668%233468%2315615%23663"
+        url="https://www.aliexpress.com/item/4000171398545.html?algo_pvid=6f2a8b66-d2a9-4e4a-aa6c-77d40724f61f&algo_expid=6f2a8b66-d2a9-4e4a-aa6c-77d40724f61f-10&btsid=0b86d80216066135805932798ec64f&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_"
         sc.getproductdetail(url)
     #python .\scrapy_test.py TestScrapy.testgetitemfile
     def testgetitemfile(self):

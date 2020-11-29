@@ -19,6 +19,8 @@ def case1():
         profile=None
     print("already start, wait for a moment...")    
     Scrapy.startBykeyword(keyword,profile)
+    endmsg="press any key to end\n"
+    endstring= input(endmsg)
 # 通过文件方式处理连接
 def case2():
     msg="tell me the file path\n"

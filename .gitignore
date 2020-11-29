@@ -5,3 +5,6 @@ pyvenv.cfg
 __pycache__/*
 geckodriver.log
 .vscode
+result
+dist
+build

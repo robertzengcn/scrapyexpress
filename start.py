@@ -2,6 +2,7 @@
 from scrapy import Scrapy
 import sys
 import os
+from .config import get_config
 
 print("Do you want to get data by search or by file?")
 scrapytype = input("1.by search; 2.by file?\n")

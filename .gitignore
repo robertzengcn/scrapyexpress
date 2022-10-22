@@ -5,6 +5,9 @@ pyvenv.cfg
 __pycache__/*
 geckodriver.log
 .vscode
-result
+result/*
 dist
 build
+env
+setting.py
+scrapyexpress.egg-info

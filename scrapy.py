@@ -15,6 +15,7 @@ from random import randint
 from furl import furl
 from selenium.common.exceptions import ElementClickInterceptedException
 from selenium.common.exceptions import StaleElementReferenceException
+from selenium.webdriver.firefox.options import Options
 # from selenium.common.exceptions import ElementClickInterceptedException
 class Scrapy(object):
 
@@ -23,15 +24,16 @@ class Scrapy(object):
         self.browser = None
         self.pagenum = 1
 
-    def initbrowser(self, profiles=None):
-
+    def initbrowser(self, profiles=None,binary=None):
+        options = Options()
+        options.binary_location = binary
         if profiles != None:
             fp = webdriver.FirefoxProfile(profiles)
-            self.browser = webdriver.Firefox(fp)
+            self.browser = webdriver.Firefox(fp,options=options)
         else:
-            self.browser = webdriver.Firefox()
+            self.browser = webdriver.Firefox(options=options)
 
-    def startBykeyword(self, keyword, profiles=None):
+    def startBykeyword(self, keyword,profiles=None,binary=None):
         today = date.today()
         d1 = today.strftime("%Y-%m-%d")
         self.resultdirectory = './result/'+d1+'/'
@@ -42,13 +44,13 @@ class Scrapy(object):
         self.resultfile = self.resultdirectory + \
             keyword+'_result'+str(time.time())+'.csv'
         #profiles=r"C:\Users\robert zeng\AppData\Roaming\Mozilla\Firefox\Profiles\qcsnl19h.default-release"
-        self.initbrowser()
+        self.initbrowser(profiles,binary)
         self.browser.get('https://www.aliexpress.com')
         keyinput = self.browser.find_element_by_xpath('//*[@id="search-key"]')
         keyinput.send_keys(keyword)
 
-        cookies = self.browser.get_cookies()
-        print(cookies)
+        # cookies = self.browser.get_cookies()
+        # print(cookies)
 
         #serachbtn = self.browser.find_element_by_class_name('search-button')
         # self.closeadhome()#关闭首页可能出现的广告

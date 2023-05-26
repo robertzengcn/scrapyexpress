@@ -37,8 +37,8 @@ def main(return_results=False, parse_cmd_line=True, config_from_dict=None,extern
 
     if(len(keyword)>0):
         logger.info(firefoxCookies)    
-        scrapyModel.startBykeyword(keyword,None,firefoxBinary)
-    else:
-        
-        scrapyModel.handleitembyfile(keyfile)        
+        scrapyModel.startBykeyword(keyword,firefoxCookies,firefoxBinary)
+    else:        
+        scrapyModel.handleitembyfile(keyfile)
+                
 

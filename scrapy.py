@@ -17,6 +17,10 @@ from selenium.common.exceptions import ElementClickInterceptedException
 from selenium.common.exceptions import StaleElementReferenceException
 from selenium.webdriver.firefox.options import Options
 # from selenium.common.exceptions import ElementClickInterceptedException
+import logging
+logging.basicConfig()
+logging.root.setLevel(logging.NOTSET)
+logger = logging.getLogger(__name__)
 class Scrapy(object):
 
     def __init__(self):
@@ -76,14 +80,17 @@ class Scrapy(object):
         try:
             self.scrapyListpage(self.pagenum)
         except StaleElementReferenceException:
-            print("get list error, may be alread at end of list page 20201128174577")
+            # print("get list error, may be alread at end of list page 20201128174577")
+            logger.info("get list error, may be alread at end of list page 20201128174577") 
         # 读取列表结果csv
         self.handleitembyfile(self.csvfile,self.resultfile)
-        print("complete\n")
-        print("list file locate:\n")
-        print(self.csvfile+"\n")
-        print("result file locate:\n")
-        print(self.resultfile+"\n")
+        # print("complete\n")
+        # print("list file locate:\n")
+        # print(self.csvfile+"\n")
+        logger.info(self.csvfile)
+        # print("result file locate:\n")
+        # print(self.resultfile+"\n")
+        logger.info(self.resultfile)
         # for i in range(1, self.pagenum):
         #     self.scrolldown()
         #     currbtn=self.browser.find_element_by_class_name('next-current')
@@ -183,7 +190,7 @@ class Scrapy(object):
 
     def getprolistinpage(self):
         # 取产品列表外的div
-        proclass = self.browser.find_element_by_class_name('product-list')
+        proclass = self.browser.find_element_by_class_name('JIIxO')
         linkelems = proclass.find_elements_by_xpath("//a[@href]")
         substring = "/item/"
         res = []
@@ -336,8 +343,12 @@ class Scrapy(object):
 
         title = titlediv.text.strip()
         self.movetoitembyclass('product-title')
-        pricestring = self.browser.find_element_by_class_name(
+        try:
+            pricestring = self.browser.find_element_by_class_name(
             'product-price-value').text
+        except NoSuchElementException:
+            pricestring = self.browser.find_element_by_class_name(
+            'uniform-banner-box-price').text
         pricestring = pricestring.strip()
         lowprice = 0
         heightprice = 0
@@ -419,7 +430,8 @@ class Scrapy(object):
             if otherimglist[0]!=None:
                 mainimage=otherimglist[0]
         fulldata = dict(title=title, heightprice=heightprice, lowprice=lowprice, mainimg=mainimage, sku=oursku, allattribute=allattri, otherimg=otherimglist, url=purl, specialtxt=specialtxt,detailhtml=detailhtml)
-        print(fulldata)
+        logger.info(fulldata)
+        # print(fulldata)
         # self.browser.close()
         return fulldata
 
